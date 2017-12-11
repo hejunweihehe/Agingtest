@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_test_time">10</integer>
+    <integer name="default_reboot_time">20</integer>
+    <integer name="default_sleep_time">20</integer>
+    <integer name="default_vibrate_time">20</integer>
+    <integer name="default_receiver_time">20</integer>
+    <integer name="default_front_taking_picture_time">20</integer>
+    <integer name="default_back_taking_picture_time">20</integer>
+    <integer name="default_play_video_time">20</integer>
+    <integer name="default_camera_preview_time">20</integer>
+    <integer name="default_tp_test_time">20</integer>
+    <integer name="default_camera_motor_time">20</integer>
+    <integer name="reboot_delayed">5000</integer>
+    <integer name="wake_up_delayed">5000</integer>
+    <integer name="go_to_sleep_delayed">5000</integer>
+    <integer name="circulation_delayed">3000</integer>
+    <integer name="vibrate_repeat_times">0</integer>
+</resources>

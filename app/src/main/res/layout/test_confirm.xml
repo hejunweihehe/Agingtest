@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/confirm_buttons"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/confirm_btn_fail"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_fail" />
+
+    <Button
+        android:id="@+id/confirm_btn_succeed"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_succeed" />
+
+</LinearLayout>

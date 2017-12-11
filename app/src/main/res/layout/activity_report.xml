@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/report_container_margin_bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/vibrate_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/vibrate_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/vibrate_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/receiver_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/receiver_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/receiver_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/front_taking_picture_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/front_taking_picture_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/front_taking_picture_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/back_taking_picture_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/back_taking_picture_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/back_taking_picture_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/play_video_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/play_video_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/play_video_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/camera_motor_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/camera_motor_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/camera_motor_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/flash_light_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/flashlight_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/flash_light_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/loudspeaker_container"
+            android:layout_width="@dimen/set_time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/report_container_margin_top">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/loudspeaker_title"
+                android:textSize="@dimen/report_title_text_size" />
+
+            <TextView
+                android:id="@id/loud_speaker_report"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/ok"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="@dimen/button_padding_bottom"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/ok" />
+    </LinearLayout>
+</LinearLayout>

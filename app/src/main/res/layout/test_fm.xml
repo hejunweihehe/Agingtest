@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="left|center_vertical"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                 android:id="@+id/fm_info"
+                 android:minWidth="300dp"
+                 android:minHeight="150dp"
+                 android:textSize="30dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                
+                <Button
+                    android:id="@+id/fm_prev"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/test_fm_leftarrow"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/fm_play"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/test_fm_play"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/fm_next"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/test_fm_rightarrow"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/fm_sound_sw"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/test_fm_sound_spk"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    
+    <com.android.factorywidget.TestConfirm
+        android:id="@+id/fm_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        />
+</LinearLayout>

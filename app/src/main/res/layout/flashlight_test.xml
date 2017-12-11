@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@id/flash_mode"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/falsh_title" />
+
+        <Button
+            android:id="@id/torch_mode"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/torch_title" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_title"
+        android:textSize="@dimen/test_time_title_size" />
+
+    <TextView
+        android:id="@+id/test_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/test_time_margin_top"
+        android:textColor="@color/test_time_color"
+        android:textSize="@dimen/test_time_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_time_title"
+        android:textSize="@dimen/test_time_title_size" />
+
+    <TextView
+        android:id="@id/test_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/test_time_margin_top"
+        android:textColor="@color/test_time_color"
+        android:textSize="@dimen/test_time_size" />
+
+    <Button
+        android:id="@id/stop_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/stop_test_margin_top"
+        android:text="@string/stop" />
+</LinearLayout>

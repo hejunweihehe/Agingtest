@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/key_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="@string/test_keyboard_tip"
+        android:textSize="20dp" />
+
+    <GridView
+        android:id="@+id/keyboard_gridview_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="auto_fit"
+        android:paddingTop="100dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp">
+    </GridView>
+    <!--
+    <TextView
+        android:id="@+id/key_name_show"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_weight="1.0"
+        android:textColor="#FF00FF00"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    -->
+
+    <com.android.factorywidget.TestConfirm
+        android:id="@+id/keyboard_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

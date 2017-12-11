@@ -1,0 +1,28 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="key_board_width">50dp</dimen>
+    <dimen name="key_board_height">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="set_time_container_width">320.0dip</dimen>
+    <dimen name="report_container_margin_top">5.0dip</dimen>
+    <dimen name="report_container_margin_bottom">16.0dip</dimen>
+    <dimen name="test_title_text_size">16.0sp</dimen>
+    <dimen name="button_container_margin_top">8.0dip</dimen>
+    <dimen name="button_container_margin_left">16.0dip</dimen>
+    <dimen name="button_container_margin_right">16.0dip</dimen>
+    <dimen name="button_padding_top">8.0dip</dimen>
+    <dimen name="button_padding_bottom">8.0dip</dimen>
+    <dimen name="button_margin_left">32.0dip</dimen>
+    <dimen name="time_text_size">16.0sp</dimen>
+    <dimen name="report_title_text_size">16.0sp</dimen>
+    <dimen name="report_text_size">18.0sp</dimen>
+    <dimen name="test_time_title_size">32.0sp</dimen>
+    <dimen name="test_time_margin_top">16.0dip</dimen>
+    <dimen name="test_time_size">28.0sp</dimen>
+    <dimen name="stop_test_margin_top">24.0dip</dimen>
+    <dimen name="checkbox_container_margin_left">110.0dip</dimen>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.agingtest">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/arrow"
+        android:label="@string/app_name">
+        <activity
+            android:name=".AgingTestMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.VibrateActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ReportActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.ReceiverActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.MotorZoomActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.FrontTakingPictureActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.FlashLightActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.BackTakingPictureActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.PlayVideoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.LoudSpeakerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TimeSettingsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".test.TPTestActivity"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#383838"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_status" />                        
+            <TextView
+                android:id="@+id/power_status_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_plug" />                        
+            <TextView
+                android:id="@+id/power_plug_id"
+                style="@style/battery_style_2"/>            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_level" />                        
+            <TextView
+                android:id="@+id/power_level_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_scale"/>                        
+            <TextView
+                android:id="@+id/power_scale_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_health"/>                        
+            <TextView
+                android:id="@+id/power_health_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_voltage" />                        
+            <TextView
+                android:id="@+id/power_vol_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_temp"/>                        
+            <TextView
+                android:id="@+id/power_temp_id"
+                style="@style/battery_style_2"/>            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_tech" />                        
+            <TextView
+                android:id="@+id/power_tech_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/battery_style_1"
+                android:text="@string/test_power_time"/>                        
+            <TextView
+                android:id="@+id/power_time_id"
+                style="@style/battery_style_2" />            
+        </LinearLayout>
+    </LinearLayout>
+
+	<com.android.factorywidget.TestConfirm
+	    android:id="@+id/power_confirm" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    />
+
+</LinearLayout>

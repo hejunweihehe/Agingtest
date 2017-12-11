@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#383838"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/gps_info_id"
+                style="@style/gps_style_1" />
+
+            <TextView
+                android:id="@+id/gps_timeslap"
+                style="@style/gps_style_2" 
+                android:text="@string/test_gps_time"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/gps_style_1"
+                android:text="@string/test_gps_latitude" />
+
+            <TextView
+                android:id="@+id/gps_latitude_id"
+                style="@style/gps_style_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/gps_style_1"
+                android:text="@string/test_gps_longitude" />
+
+            <TextView
+                android:id="@+id/gps_longitude_id"
+                style="@style/gps_style_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/gps_style_1"
+                android:text="@string/test_gps_number" />
+
+            <TextView
+                android:id="@+id/gps_count_id"
+                style="@style/gps_style_2" />
+        </LinearLayout>
+<!-- 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/gps_style_1"
+                android:text="@string/test_gps_speed" />
+
+            <TextView
+                android:id="@+id/gps_speed_id"
+                style="@style/gps_style_2" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/gps_style_1"
+                android:text="@string/test_gps_bear" />
+
+            <TextView
+               	android:maxLines="3"
+                android:id="@+id/gps_bear_id"
+                style="@style/gps_style_2" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/gps_style_1"
+                android:text="@string/test_gps_altitude" />
+
+            <TextView
+                android:id="@+id/gps_altitude_id"
+               	android:maxLines="3"
+                style="@style/gps_style_2" />
+        </LinearLayout>
+    -->    
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:background="#FF2e2e2e"
+        	android:id="@+id/gps_satellite_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        	android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" />
+    </ScrollView>
+    </LinearLayout>
+
+    <com.android.factorywidget.TestConfirm
+        android:id="@+id/gps_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

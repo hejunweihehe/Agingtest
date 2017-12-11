@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_reboot_value">false</bool>
+    <bool name="default_sleep_value">false</bool>
+    <bool name="default_vibrate_value">false</bool>
+    <bool name="default_receiver_value">false</bool>
+    <bool name="default_front_taking_picture_value">false</bool>
+    <bool name="default_back_taking_picture_value">false</bool>
+    <bool name="default_play_video_value">false</bool>
+    <bool name="default_camera_motor_value">false</bool>
+    <bool name="default_circulation_value">false</bool>
+    <bool name="clear_result_on_start">true</bool>
+    <bool name="clear_state_on_start">false</bool>
+    <bool name="reboot_visible">true</bool>
+    <bool name="sleep_visible">true</bool>
+    <bool name="vibrate_visible">true</bool>
+    <bool name="receiver_visible">true</bool>
+    <bool name="front_taking_picture_visible">true</bool>
+    <bool name="back_taking_picture_visible">true</bool>
+    <bool name="play_video_visible">true</bool>
+    <bool name="camera_motor_visible">true</bool>
+    <bool name="circulation_visible">true</bool>
+</resources>

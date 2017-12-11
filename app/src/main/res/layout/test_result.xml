@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <LinearLayout
+	        android:id="@+id/all_result"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:gravity="left"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        >
+			    <TextView
+			        android:id="@+id/result_ok"
+			        style="@style/result_text"
+			        android:textColor="@color/green"
+			        android:visibility="gone"
+			        />
+			    
+			    <View
+			        android:id="@+id/result_sep"
+			        android:layout_width="fill_parent"
+			        android:layout_height="1dp"
+			        android:background="@color/gray"
+			        android:visibility="gone"
+			        />
+			    
+			    <TextView 
+			        android:id="@+id/result_fail"
+			        style="@style/result_text"
+			        android:textColor="@color/red"
+			        android:visibility="gone"
+			        />
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>

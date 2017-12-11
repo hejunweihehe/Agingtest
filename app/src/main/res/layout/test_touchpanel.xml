@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:gravity="top"
+        android:id="@+id/touchpanelview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+    </AbsoluteLayout>
+    
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gestureStrokeType="multiple" >
+    </android.gesture.GestureOverlayView>
+<!-- 
+    <com.android.factorywidget.TestConfirm
+        android:id="@+id/touchpanel_confirm"
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+ -->
+</AbsoluteLayout>

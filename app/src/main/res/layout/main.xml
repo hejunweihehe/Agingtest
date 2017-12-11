@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/auto_test_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+			android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:text="@string/test_autotesting"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/test_all"
+                style="@style/main_button_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/but_test_all"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/result_all"
+                style="@style/main_button_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/app_result"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/clear_all"
+                style="@style/main_button_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/test_clear_data"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:id="@+id/active_test_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/test_activetest"
+			android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:id="@+id/main_buttons_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/test_version"
+                style="@style/main_button_style"
+                android:text="@string/but_test_version" />
+
+            <Button
+                android:id="@+id/test_color"
+                style="@style/main_button_style"
+                android:text="@string/but_test_color" />
+
+            <Button
+                android:id="@+id/test_touchpanel"
+                style="@style/main_button_style"
+                android:text="@string/but_test_touchpanel" />
+
+            <Button
+                android:id="@+id/test_flashlight"
+                style="@style/main_button_style"
+                android:text="@string/but_test_flashlight" />
+
+            <Button
+                android:id="@+id/test_camera"
+                style="@style/main_button_style"
+                android:text="@string/but_test_camera" />
+
+            <Button
+                android:id="@+id/test_backlight"
+                style="@style/main_button_style"
+                android:text="@string/but_test_backlight" />
+
+            <Button
+                android:id="@+id/test_power"
+                style="@style/main_button_style"
+                android:text="@string/but_test_power" />
+
+            <Button
+                android:id="@+id/test_led"
+                style="@style/main_button_style"
+                android:text="@string/test_led" />
+
+
+            <Button
+                android:id="@+id/test_keyboard_ireadygo"
+                style="@style/main_button_style"
+                android:text="@string/but_test_keyboard_ireadygo" />
+
+            <Button
+                android:id="@+id/test_fm"
+                style="@style/main_button_style"
+                android:text="@string/but_test_fm" />
+
+            <Button
+                android:id="@+id/test_earphone"
+                style="@style/main_button_style"
+                android:text="@string/but_test_earphone" />
+
+            <Button
+                android:id="@+id/test_vibrate"
+                style="@style/main_button_style"
+                android:text="@string/but_test_vibrate" />
+
+            <Button
+                android:id="@+id/test_light_sensor"
+                style="@style/main_button_style"
+                android:text="@string/but_test_light_sensor" />
+
+            <Button
+                android:id="@+id/test_distance_sensor"
+                style="@style/main_button_style"
+                android:text="@string/but_test_distance_sensor" />
+
+            <Button
+                android:id="@+id/test_speaker"
+                style="@style/main_button_style"
+                android:text="@string/but_test_speaker" />
+
+            <Button
+                android:id="@+id/test_headset"
+                style="@style/main_button_style"
+                android:text="@string/but_test_headset" />
+
+            <Button
+                android:id="@+id/test_mic"
+                style="@style/main_button_style"
+                android:text="@string/but_test_mic" />
+
+            <Button
+                android:id="@+id/test_phone"
+                style="@style/main_button_style"
+                android:text="@string/but_test_phone" />
+            
+            <Button
+                android:id="@+id/test_adc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="@string/but_test_adc" />
+
+            <Button
+                android:id="@+id/test_aging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="@string/but_test_aging" />
+			<!--
+            Button
+                android:id="@+id/test_gps"
+                style="@style/main_button_style"
+                android:text="@string/but_test_gps" />
+
+            <Button
+                android:id="@+id/test_sd"
+                style="@style/main_button_style"
+                android:text="@string/but_test_sd" />
+
+            <Button
+                android:id="@+id/test_wifi"
+                style="@style/main_button_style"
+                android:text="@string/but_test_wifi" />
+
+            <Button
+                android:id="@+id/test_bluetooth"
+                style="@style/main_button_style"
+                android:text="@string/but_test_bluetooth" />
+
+            <Button
+                android:id="@+id/test_power"
+                style="@style/main_button_style"
+                android:text="@string/but_test_power" />
+
+            <Button
+                android:id="@+id/test_gravity_sensor"
+                style="@style/main_button_style"
+                android:text="@string/but_test_gravity_sensor" />
+
+            <Button
+                android:id="@+id/test_magnetic_sensor"
+                style="@style/main_button_style"
+                android:text="@string/but_test_magnetic_sensor" />
+
+            <Button
+                android:id="@+id/test_gyroscope_sensor_ireadygo"
+                style="@style/main_button_style"
+                android:text="@string/but_test_gyroscope_sensor_ireadygo" />
+
+            <Button
+                android:id="@+id/test_sim"
+                style="@style/main_button_style"
+                android:text="@string/but_test_sim" />
+
+            <Button
+                android:id="@+id/test_imei"
+                style="@style/main_button_style"
+                android:text="@string/but_test_imei" /
+            -->
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/passive_test_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+			android:textColor="#ffffff"
+            android:text="@string/test_passivetest"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:id="@+id/passive_buttons_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/test_gps"
+                style="@style/main_button_style"
+                android:text="@string/but_test_gps" />
+
+            <Button
+                android:id="@+id/test_wifi"
+                style="@style/main_button_style"
+                android:text="@string/but_test_wifi" />
+
+            <Button
+                android:id="@+id/test_bluetooth"
+                style="@style/main_button_style"
+                android:text="@string/but_test_bluetooth" />
+
+            <Button
+                android:id="@+id/test_gravity_sensor"
+                style="@style/main_button_style"
+                android:text="@string/but_test_gravity_sensor" />
+
+            <Button
+                android:id="@+id/test_magnetic_sensor"
+                style="@style/main_button_style"
+                android:text="@string/but_test_magnetic_sensor" />
+
+            <Button
+                android:id="@+id/test_gyroscope_sensor_ireadygo"
+                style="@style/main_button_style"
+                android:text="@string/but_test_gyroscope_sensor_ireadygo" />
+
+            <Button
+                android:id="@+id/test_sim"
+                style="@style/main_button_style"
+                android:text="@string/but_test_sim" />
+
+            <Button
+                android:id="@+id/test_imei"
+                style="@style/main_button_style"
+                android:text="@string/but_test_imei" />
+
+            <Button
+                android:id="@+id/test_led_single"
+                style="@style/main_button_style"
+                android:text="@string/test_led_single" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
